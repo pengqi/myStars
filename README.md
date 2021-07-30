@@ -464,4 +464,4 @@ Make everything a GitHub svg poster and Skyline!
 
 #### 为什么写
 
-I find many stars in GitHub but find what I need is not quickly and easily. So I write what I used or I think it useful on there（之前写好的，懒得改成中文了）
+With more and more stars in GitHub, it is not quick and easy to find what I need . Therefore, I write what I used or what I think useful on there. In short, I sort them.（之前写好的，懒得改成中文了）
