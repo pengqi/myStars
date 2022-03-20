@@ -174,6 +174,19 @@ FastAPI framework, high performance, easy to learn, fast to code, ready for prod
 
 高级功能收费，好的是一直在更新（2021-03-17）
 
+### QQ机器人
+
+[go-cqhttp](https://github.com/Mrs4s/go-cqhttp)
+
+也是较底层的库，就是发信息，收信息的基层功能。比的 [aiocqhttp](https://github.com/nonebot/aiocqhttp) 更活跃
+
+[文档链接](https://docs.go-cqhttp.org/)
+
+[ nonebot](https://github.com/nonebot/nonebot)
+更高层的框架，通过编写插件增加功能
+
+
+
 ### ocr
 
 #### [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
@@ -459,6 +472,22 @@ Make everything a GitHub svg poster and Skyline!
 #### [gopup](https://github.com/justinzm/gopup)
 
 数据接口：百度、谷歌、头条、微博指数,宏观数据，利率数据，货币汇率，千里马、独角兽公司，新闻联播文字稿，影视票房数据，高校名单，疫情数据…
+
+### [slidev](https://github.com/slidevjs/slidev)
+
+用 markdown 写 ppt
+
+### [rasa](https://github.com/RasaHQ/rasa)
+
+语音/文字机器人
+
+### [CasaOS](https://github.com/IceWhaleTech/CasaOS)
+
+一个家庭系统，用 docker, 但还是没有用 linux 那么强大
+
+### [KindleEar](https://github.com/cdhigh/KindleEar)
+
+把 rss 转为 epub, 然后发送给 kindle
 
 ### 问题
 
