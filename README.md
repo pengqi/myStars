@@ -18,6 +18,7 @@
   - [微信机器人](#微信机器人)
     - [WechatBot](#wechatbot)
     - [PyWeChatSpy](#pywechatspy)
+  - [QQ机器人](#qq机器人)
   - [ocr](#ocr)
     - [PaddleOCR](#paddleocr)
     - [OCR_Japanease](#ocr_japanease)
@@ -66,6 +67,10 @@
     - [pixez-flutter](#pixez-flutter)
     - [nativefier](#nativefier)
     - [mahjong-helper](#mahjong-helper)
+  - [软件 - 便签类](#软件---便签类)
+    - [quillnote](#quillnote)
+    - [another-notes-app](#another-notes-app)
+    - [nextcloud-*notes*](#nextcloud-notes)
   - [未分类](#未分类)
     - [rpi-backup](#rpi-backup)
     - [knboard](#knboard)
@@ -88,9 +93,12 @@
     - [Real-Time-Voice-Cloning](#real-time-voice-cloning)
     - [GitHubPoster](#githubposter)
     - [gopup](#gopup)
+  - [slidev](#slidev)
+  - [rasa](#rasa)
+  - [CasaOS](#casaos)
+  - [KindleEar](#kindleear)
   - [问题](#问题)
     - [为什么写](#为什么写)
-  
   
 ## 功能类
 
@@ -373,7 +381,29 @@ Make any web page a desktop application
 
 日本麻将助手：牌效+防守+记牌（支持雀魂、天凤）
 
+### 软件 - 便签类
 
+我把笔记软件分为两类，一种是重型笔记软件，如 onenote, obsidian 等，用它们记东西最好在电脑上，在安卓手机上未免太慢了，也不适合快速记笔记，虽然 onenote 有便签，但查看以前内容时，也不方便。现在 onenote + obsidian 两款笔记软件都在用。
+
+第二类就是便签类，如我正在用的 wps 便签。能够快速打开，记下我的灵感它用了好几年了，但它是网页版的，怕它倒闭，也有我喜欢自建的原因，有把数据握在自己手里的想法，因此，找到一个开源的、好看的便签类笔记，能完善我整个体系。
+
+#### [quillnote](https://github.com/msoultanidis/quillnote)
+
+大三的时候找到的软件，软件好看，还可以连接 nextcloud 的 note app, 但实际上有很多问题。一是同步基本同不了，二是导出数据再导入后有些会变 * 号，感觉被屏蔽了一样，三是不能自动备份数据，实在是懒得备（2022-04-13）。因此我再次在 github 中搜软件，并下载试用，认为下面两款更好。
+
+（搜索命令：note app android pushed:>2021-07-01 stars:>50）
+
+#### [another-notes-app](https://github.com/maltaisn/another-notes-app)
+
+有 quillnote 的功能，还有自动备份功能，更新也较活跃，还能够调整预览的行数。但是 dav 功能没有，备份也是用 json 文件导出的。还有 markdown 的功能也没有，样式不足。
+
+不过，可以使用脚本，自动解析 json 文件，将其转为 markdown 文件就行。然而，我懒得这样做。与 nextcloud-notes 比较，还是后者更省心
+
+#### [nextcloud-*notes*](https://github.com/stefan-niedermann/nextcloud-notes)
+
+有同步功能，本来就是 nextcloud 应用商店中一员。置顶、markdown、分类归档该有的功能也有，而且还能引用 nextcloud 路径的图片（虽然便签类笔记一般不用）。不足之处就是预览的只有一行，而不是像上面两个软件一样，可以预览好几行。
+
+综上所述，我还是用这个，比较方便。（但如果你没有 nextcloud, 还是用在上面两个选，或者用其它的，因为这个软件是要 nextcloud 账户的）
 
 ### 未分类
 
