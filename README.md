@@ -209,7 +209,16 @@ FastAPI framework, high performance, easy to learn, fast to code, ready for prod
 
 专门用来识别竖排日语书
 
+### 语音识别
 
+[alphacep](https://github.com/alphacep)/[vosk-api](https://github.com/alphacep/vosk-api)
+开箱即用，支持二十多种语言，日语当然也有，是我所需要的。其它的一些项目，只有中英文，没有日语，自己训练是不可能的，给几个星期可能都搞不定。
+
+如果想用它识别语音，练日语，还是算了。直接找有字幕的，或者直接看日语小说，效率比这高，到时候自然而然地能听懂
+
+[Uberi](https://github.com/Uberi)/[speech_recognition](https://github.com/Uberi/speech_recognition)
+
+有各大平台的语音识别api，起到索引作用
 
 ## 书籍和项目推荐类
 
@@ -338,6 +347,10 @@ anki服务端，同步可以快点。但最近（2021-03-17）发现同步不了
 #### [nextcloud/docker](https://github.com/nextcloud/docker)
 
 nextcloud是个人网盘，挺好用的。使用docker安装nextcloud，简单快速
+
+### [msgbyte / tailchat](https://github.com/msgbyte/tailchat)
+
+一个即时通讯软件
 
 ### 软件
 
