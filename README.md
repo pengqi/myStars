@@ -220,6 +220,14 @@ FastAPI framework, high performance, easy to learn, fast to code, ready for prod
 
 有各大平台的语音识别api，起到索引作用
 
+#### [ideasman42](https://github.com/ideasman42)/[nerd-dictation](https://github.com/ideasman42/nerd-dictation)
+
+用vosk-api所做出的项目，更方便使用
+
+#### https://kdenlive.org/
+
+视频编辑软件，可以自动生成字幕
+
 ## 书籍和项目推荐类
 
 ### 书
