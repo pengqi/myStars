@@ -23,6 +23,12 @@
     - [PaddleOCR](#paddleocr)
     - [OCR_Japanease](#ocr_japanease)
     - [Kindai-OCR](#kindai-ocr)
+  - [语音识别](#语音识别)
+    - [ideasman42/[nerd-dictation](https://github.com/ideasman42/nerd-dictation)](#ideasman42nerd-dictation)
+    - [https://kdenlive.org/](#httpskdenliveorg)
+  - [日语学习](#日语学习)
+    - [hexenq/[kuroshiro](https://github.com/hexenq/kuroshiro)](#hexenqkuroshiro)
+    - [yudataguy / Awesome-Japanese](#yudataguy--awesome-japanese)
 - [书籍和项目推荐类](#书籍和项目推荐类)
   - [书](#书)
     - [How-To-Ask-Questions-The-Smart-Way](#how-to-ask-questions-the-smart-way)
@@ -58,6 +64,7 @@
     - [cloudpan189-go](#cloudpan189-go)
     - [photoprism](#photoprism)
     - [nextcloud/docker](#nextclouddocker)
+  - [msgbyte / tailchat](#msgbyte--tailchat)
   - [软件](#软件)
     - [BlogHelper](#bloghelper)
     - [InfoSpider](#infospider)
@@ -227,6 +234,32 @@ FastAPI framework, high performance, easy to learn, fast to code, ready for prod
 #### https://kdenlive.org/
 
 视频编辑软件，可以自动生成字幕
+
+### 日语学习
+
+#### [hexenq](https://github.com/hexenq)/[kuroshiro](https://github.com/hexenq/kuroshiro)
+
+为日语文本注假名。当初我好像是搜 japanese katakana(片假名) 这两个关键词搜到的。后面用的时候，发现不会用，或者说用不了，出错。之后看了英文版的 readme 和 [issues](https://github.com/hexenq/kuroshiro/issues/88) 才知道，原来中文版少了一些文字，用 SE6 是不行的，还得用原始的 *CommonJS*，然后导入库的方式错了，要改成 
+
+```javascript
+let Kuroshiro = require('kuroshiro').default; 
+```
+
+**类似的应用**
+
+安卓有 kata
+
+网页端有 https://www.hiragana.jp/
+
+
+
+#### [yudataguy / Awesome-Japanese](https://github.com/yudataguy/Awesome-Japanese)
+
+收藏了学习日语的资源。我比较喜欢的网站有
+
+[supernative](https://supernative.tv/ja/)   练习听说的好网站，给你一小段视频，你听后并说出来。
+
+
 
 ## 书籍和项目推荐类
 
