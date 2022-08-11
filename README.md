@@ -6,6 +6,7 @@
   - [围棋AI](#围棋ai)
     - [katrain](#katrain)
   - [爬虫](#爬虫)
+    - [feapder](#feapder)
     - [Python3-Spider](#python3-spider)
     - [examples-of-web-crawlers](#examples-of-web-crawlers)
   - [python库](#python库)
@@ -138,6 +139,10 @@ KaTrain might be the easiest to set up for non-technical users, offering an all-
 [b站简单教程](https://www.bilibili.com/video/BV1xf4y117yK?from=search&seid=12199759262173042511)
 
 ### 爬虫
+
+#### [feapder](https://github.com/Boris-code/feapder)
+
+爬虫框架，功能全面，非常强大
 
 #### [Python3-Spider](https://github.com/wkunzhi/Python3-Spider)
 
