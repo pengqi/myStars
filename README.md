@@ -13,9 +13,11 @@
     - [pdfplumber](#pdfplumber)
     - [shreport](#shreport)
     - [akshare](#akshare)
-    - [fastapi](#fastapi)
     - [insightface](#insightface)
     - [guietta](#guietta)
+  - [简单网站 / api](#简单网站--api)
+    - [PyWebIO](#pywebio)
+    - [django-ninja](#django-ninja)
   - [微信机器人](#微信机器人)
     - [WechatBot](#wechatbot)
     - [PyWeChatSpy](#pywechatspy)
@@ -65,7 +67,8 @@
     - [cloudpan189-go](#cloudpan189-go)
     - [photoprism](#photoprism)
     - [nextcloud/docker](#nextclouddocker)
-  - [msgbyte / tailchat](#msgbyte--tailchat)
+    - [msgbyte / tailchat](#msgbyte--tailchat)
+    - [mdserver-web](#mdserver-web)
   - [软件](#软件)
     - [BlogHelper](#bloghelper)
     - [InfoSpider](#infospider)
@@ -172,10 +175,6 @@ Plumb a PDF for detailed information about each char, rectangle, line, et cetera
 
 免费的库，挺好用的
 
-#### [fastapi](https://github.com/tiangolo/fastapi)
-
-FastAPI framework, high performance, easy to learn, fast to code, ready for production
-
 #### [insightface](https://github.com/deepinsight/insightface)
 
 人脸识别库
@@ -183,6 +182,16 @@ FastAPI framework, high performance, easy to learn, fast to code, ready for prod
 #### [guietta](https://github.com/alfiopuglisi/guietta)
 
 超级简单的python GUI，但是有quicker, 我觉得不太用得上
+
+### 简单网站 / api
+
+#### [PyWebIO](https://github.com/pywebio/PyWebIO)
+
+简单地制作一个web，不需要考虑 html 和 css，只要能写出函数，就可以简单地添加 UI。
+
+#### [django-ninja](https://github.com/vitalik/django-ninja)
+
+可以简单地制作 api，并生成文档。类似的有 flaskapi, fastapi。目前它比较好，stars 数比较多，还能利用 django 的优势。
 
 ### 微信机器人
 
@@ -394,9 +403,15 @@ anki服务端，同步可以快点。但最近（2021-03-17）发现同步不了
 
 nextcloud是个人网盘，挺好用的。使用docker安装nextcloud，简单快速
 
-### [msgbyte / tailchat](https://github.com/msgbyte/tailchat)
+#### [msgbyte / tailchat](https://github.com/msgbyte/tailchat)
 
 一个即时通讯软件
+
+#### [mdserver-web](https://github.com/midoks/mdserver-web)
+
+开源面板，适配arm。
+
+直接用脚本安装即可，用docker有可能运行不起来。重启后，它会有防火墙，在软件中下载ssh软件，进去将端口放行，或者直接关闭防火墙，接着**重启服务器**。特别是改了ssh的端口，会连不上ssh了。
 
 ### 软件
 
@@ -577,6 +592,8 @@ Make everything a GitHub svg poster and Skyline!
 ### [KindleEar](https://github.com/cdhigh/KindleEar)
 
 把 rss 转为 epub, 然后发送给 kindle
+
+
 
 ### 问题
 
