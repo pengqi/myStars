@@ -3,6 +3,78 @@
     - [astral](#astral)
     - [starred](#starred)
     - [自用方案](#自用方案)
+    
+  - [围棋AI](#围棋ai)
+    - [katrain](#katrain)
+    
+  - [爬虫](#爬虫)
+    - [feapder](#feapder)
+    - [Python3-Spider](#python3-spider)
+    - [examples-of-web-crawlers](#examples-of-web-crawlers)
+    
+  - [python库](#python库)
+    - [pdfplumber](#pdfplumber)
+    - [shreport](#shreport)
+    - [akshare](#akshare)
+    - [insightface](#insightface)
+    - [guietta](#guietta)
+    
+  - [简单网站 / api](#简单网站--api)
+    - [PyWebIO](#pywebio)
+    
+    - [django-ninja](#django-ninja)
+    
+    	
+    
+  - [微信机器人](#微信机器人)
+    - [WechatBot](#wechatbot)
+    - [PyWeChatSpy](#pywechatspy)
+    
+  - [QQ机器人](#qq机器人)
+  
+  - [ocr](#ocr)
+    - [PaddleOCR](#paddleocr)
+    - [OCR_Japanease](#ocr_japanease)
+    - [Kindai-OCR](#kindai-ocr)
+    
+  - [语音识别](#语音识别)
+    - [ideasman42/[nerd-dictation](https://github.com/ideasman42/nerd-dictation)](#ideasman42nerd-dictation)
+    - [https://kdenlive.org/](#httpskdenliveorg)
+    
+  - [日语学习](#日语学习)
+    - [hexenq/[kuroshiro](https://github.com/hexenq/kuroshiro)](#hexenqkuroshiro)
+    - [yudataguy / Awesome-Japanese](#yudataguy--awesome-japanese)
+  
+- [书籍和项目推荐类](#书籍和项目推荐类)
+  - [书](#书)
+    - [How-To-Ask-Questions-The-Smart-Way](#how-to-ask-questions-the-smart-way)
+    - [everyones-guide-for-starting-up-on-wechat-network](#everyones-guide-for-starting-up-on-wechat-network)
+    - [the-art-of-command-line](#the-art-of-command-line)
+    - [eat_tensorflow2_in_30_days](#eat_tensorflow2_in_30_days)
+    - [sql-style-guide](#sql-style-guide)
+    - [google / styleguide](#google--styleguide)
+    - [http-api-guide](#http-api-guide)
+  - [书中代码](#书中代码)
+    - [pyda-2e-zh](#pyda-2e-zh)
+    - [Statistical-Learning-Method_Code](#statistical-learning-method_code)
+  - [课程笔记](#课程笔记)
+    - [Coursera-ML-AndrewNg-Notes](#coursera-ml-andrewng-notes)
+    - [ Coursera-ML-using-matlab-python](#-coursera-ml-using-matlab-python)
+    - [AndrewNg-DeepLearning](#andrewng-deeplearning)
+    - [deeplearning.ai-note](#deeplearningai-note)
+  - [项目榜单](#项目榜单)
+    - [GitHubDaily](#githubdaily)
+    - [GitHub-Chinese-Top-Charts](#github-chinese-top-charts)
+    - [HelloGitHub](#hellogithub)
+    - [free-programming-books-zh_CN](#free-programming-books-zh_cn)
+    - [awesome-selfhosted](#awesome-selfhosted)
+    - [TrackersListCollection](#trackerslistcollection)
+  
+- [功能类](#功能类)
+  - [整理stars](#整理stars)
+    - [astral](#astral)
+    - [starred](#starred)
+    - [自用方案](#自用方案)
   - [围棋AI](#围棋ai)
     - [katrain](#katrain)
   - [爬虫](#爬虫)
@@ -17,6 +89,7 @@
     - [guietta](#guietta)
   - [简单网站 / api](#简单网站--api)
     - [PyWebIO](#pywebio)
+    - [flet](#flet)
     - [django-ninja](#django-ninja)
   - [微信机器人](#微信机器人)
     - [WechatBot](#wechatbot)
@@ -173,7 +246,11 @@ Plumb a PDF for detailed information about each char, rectangle, line, et cetera
 
 #### [akshare](https://github.com/jindaxiang/akshare)
 
-免费的库，挺好用的
+可以获取股票数据，免费的库，挺好用的
+
+#### [qstock](https://github.com/tkfy920/qstock)
+
+这个也是金融数据库，并且可以获取ETF的数据（我主要用的）。目前用着别的api接口，可以把它当作备用库
 
 #### [insightface](https://github.com/deepinsight/insightface)
 
@@ -189,9 +266,17 @@ Plumb a PDF for detailed information about each char, rectangle, line, et cetera
 
 简单地制作一个web，不需要考虑 html 和 css，只要能写出函数，就可以简单地添加 UI。
 
+#### [flet](https://github.com/flet-dev/flet)
+
+Flet enables developers to easily build realtime web, mobile and desktop apps in Python. No frontend experience required.
+
+轻松地构建实时web、移动和桌面应用程序。不需要前端经验。
+
 #### [django-ninja](https://github.com/vitalik/django-ninja)
 
 可以简单地制作 api，并生成文档。类似的有 flaskapi, fastapi。目前它比较好，stars 数比较多，还能利用 django 的优势。
+
+
 
 ### 微信机器人
 
@@ -232,6 +317,10 @@ Plumb a PDF for detailed information about each char, rectangle, line, et cetera
 
 ### 语音识别
 
+#### [openai](https://github.com/openai)/[whisper](https://github.com/openai/whisper)
+
+支持多语言，使用也很简单，可以试试。
+
 [alphacep](https://github.com/alphacep)/[vosk-api](https://github.com/alphacep/vosk-api)
 开箱即用，支持二十多种语言，日语当然也有，是我所需要的。其它的一些项目，只有中英文，没有日语，自己训练是不可能的，给几个星期可能都搞不定。
 
@@ -248,6 +337,10 @@ Plumb a PDF for detailed information about each char, rectangle, line, et cetera
 #### https://kdenlive.org/
 
 视频编辑软件，可以自动生成字幕
+
+
+
+
 
 ### 日语学习
 
@@ -405,7 +498,7 @@ nextcloud是个人网盘，挺好用的。使用docker安装nextcloud，简单�
 
 #### [msgbyte / tailchat](https://github.com/msgbyte/tailchat)
 
-一个即时通讯软件
+一个即时通讯软件，是qq、微信这类软件
 
 #### [mdserver-web](https://github.com/midoks/mdserver-web)
 
