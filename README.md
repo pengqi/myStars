@@ -38,6 +38,7 @@
     - [Kindai-OCR](#kindai-ocr)
     
   - [语音识别](#语音识别)
+    
     - [ideasman42/[nerd-dictation](https://github.com/ideasman42/nerd-dictation)](#ideasman42nerd-dictation)
     - [https://kdenlive.org/](#httpskdenliveorg)
     
@@ -338,9 +339,9 @@ Flet enables developers to easily build realtime web, mobile and desktop apps in
 
 视频编辑软件，可以自动生成字幕
 
+[chidiwilliams](https://github.com/chidiwilliams)/**[buzz](https://github.com/chidiwilliams/buzz)**
 
-
-
+又是一款语音识别软件，可以下载使用。利用的是[openai](https://github.com/openai)/[whisper](https://github.com/openai/whisper)
 
 ### 日语学习
 
